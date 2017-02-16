@@ -1,0 +1,16 @@
+{
+  "name": "firebase-database-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "aws-sdk": "^2.14.0",
+    "date-utils": "^1.2.21",
+    "firebase-admin": "^4.1.1"
+  }
+}

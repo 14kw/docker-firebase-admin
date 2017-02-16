@@ -1,5 +1,6 @@
 # use latest Node LTS (Boron)
 FROM node:boron
 
-# install Firebase Admin
-RUN npm install firebase-admin --save
+RUN git clone https://github.com/14kw/docker-firebase-admin.git
+RUN cd docker-firebase-admin
+RUN npm install

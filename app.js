@@ -30,10 +30,11 @@ ref.once("value", function (snapshot) {
     s3.upload(params, function (err, data) {
       if (err) {
         console.log(err);
+        process.exit(1);
       } else {
         console.log("Successfully uploaded data to S3");
+        process.exit();
       }
     });
   });
 });
-process.exit();
